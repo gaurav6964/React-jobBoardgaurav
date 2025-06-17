@@ -1,12 +1,12 @@
-import main from '../assets/images / main.svg';
+import main from '../assets/images/main.svg';
 import { Link } from 'react-router-dom';
-import logo from '../assets/images / logo.svg';
+// import logo from '../assets/images/logo.svg';
 import styled from 'styled-components';
 const Landing = () => {
     return (
         <StyledWrapper>
             <nav>
-                <img src={logo} alt='jobify' className='logo' />
+                {/* <img src={logo} alt='jobify' className='logo' /> */}
             </nav>
             <div className='container page'>
                 {/* info */}
